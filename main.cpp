@@ -38,6 +38,12 @@ std::map<std::string, flag_t const> allFlags = {
 		"Original 8-color rainbow flag designed by Gilbert Baker in 1978"
 	} },
 
+	{ "lgbt-philly", {
+		// black/ brown colors from https://en.wikipedia.org/wiki/File:Philadelphia_Pride_Flag.svg
+		{ 0x000000,0x784F17,0xFF0018,0xFFA52C,0xFFFF41,0x008018,0x0000F9,0x86007D },
+		"Philadelphia pride flag created in 2017 by adding black and brown to the 6-color rainbow flag"
+	} },
+
 	{ "transgender", { 
 		// colors from https://www.schemecolor.com/transgender-pride-flag-colors.php
 		{ 0x55CDFC,0xF7A8B8,0xFFFFFF,0xF7A8B8,0x55CDFC },
